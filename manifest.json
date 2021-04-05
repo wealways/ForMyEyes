@@ -1,0 +1,27 @@
+{
+  "name": "For My Eyes",
+  "description": "컴퓨터 너무 오래하지 마세요. 눈도 쉬어야 하니까요",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab"],
+  "action": {
+    "default_title":"For My Eyes",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/formyeyes.png",
+      "32": "/images/formyeyes.png",
+      "48": "/images/formyeyes.png",
+      "128": "/images/formyeyes.png"
+    }
+  },
+  "icons": {
+    "16": "/images/formyeyes.png",
+    "32": "/images/formyeyes.png",
+    "48": "/images/formyeyes.png",
+    "128": "/images/formyeyes.png"
+  }
+  
+}
